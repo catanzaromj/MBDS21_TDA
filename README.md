@@ -18,7 +18,7 @@ installed with
 ```{python}
    pip install scikit-tda, giotto-tda
 ```
-The tutorial depends on other libraries like `numpy` which I assume you already
+The tutorial depends on other libraries like `numpy` and `matplotlib` which I assume you already
 have installed.
 
 Both `scikit-tda` and `giotto-tda` implement Vietoris-Rips persistent homology based on the
