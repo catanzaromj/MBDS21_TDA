@@ -4,7 +4,7 @@ This repository is for a tutorial on Topological Data Analysis (TDA) for the Mid
 Big Data Summer School in 2021 virtually in Ames, Iowa. This tutorial covers persistent homology and mapper, 
 two of the main tools used in TDA.   
 
-The slides for this tutorial can be found [here](MBDS21_TDA.pdf).
+The slides for this tutorial can be found [here](MBDS_2021.pdf).
 
 ## Vietoris-Rips persistence
 The zip archive [InteractiveJPDwB.zip](InteractiveJPDwB.zip) contains three versions of the InteractiveJPDwB application for understanding the Vietoris-Rips construction of a point cloud. There are Windows, MacOSX, and Linux versions, depending on your operating system. The instructions for using the program can be found in the bottom panel.
