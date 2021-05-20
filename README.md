@@ -1,15 +1,16 @@
-# A practical introduction to Topological Data Analysis 
+# An Introduction to Topological Data Analysis 
 
-A repository for a tutorial on Topological Data Analysis (TDA) for the Midwest
-Big Data Summer School in 2021 virtually in Ames, Iowa.
-
-This tutorial covers persistent homology and mapper, 
+This repository is for a tutorial on Topological Data Analysis (TDA) for the Midwest
+Big Data Summer School in 2021 virtually in Ames, Iowa. This tutorial covers persistent homology and mapper, 
 two of the main tools used in TDA.   
 
-The slides for this tutorial can be found [here]().
+The slides for this tutorial can be found [here](MBDS21_TDA.pdf).
+
+## Vietoris-Rips persistence
+The zip archive [InteractiveJPDwB.zip](InteractiveJPDwB.zip) contains three versions of the InteractiveJPDwB application for understanding the Vietoris-Rips construction of a point cloud. There are Windows, MacOSX, and Linux versions, depending on your operating system. The instructions for using the program can be found in the bottom panel.
 
 ## Persistent Homology
-For persistent homology, we use two implementation namely [`scikit-tda`](https://scikit-tda.org)
+For persistent homology, we use two implementations: [`scikit-tda`](https://scikit-tda.org)
 and [`giotto-tda`](https://giotto-ai.github.io/gtda-docs/0.4.0/library.html). 
 Both of these packages are available on pypi and everything
 you need for the topological data analysis part of the tutorial can be 
@@ -28,9 +29,9 @@ If you don't want to install anything on your computer, you can go to
 for easy persistence computations.
 
 There are three persistent homology notebooks for users to work through:
-1. [Introduction to persistent homology](Intro_to_PH.ipynb). A simple notebook with mostly synthetic data sets to work through.
+1. [Introduction to persistent homology](Intro_to_PH.ipynb). A simple notebook with mostly synthetic data sets.
 2. [Differentiation using persistence landscapes](Differentiation_with_Persistence_Landscapes.ipynb). A notebook for distinguishing $S^2$ from $S^3$ using one-dimensional homology, highlighting the geometric aspects of persistence. This relies on persistence landscapes, one of the first vectorization schemes introduced for persistence diagrams.
-3. [MNIST using persistent homology](MNIST_using_PH.ipynb). The most advanced notebook, combining various cubical persistence with various vectorization schemes to build a digit classifier.
+3. [MNIST using persistent homology](MNIST_using_PH.ipynb). The most advanced notebook, combining cubical persistence with various vectorization schemes to build a digit classifier for the famous MNIST data set.
 
 ## Mapper
 We use [KeplerMapper](https://github.com/scikit-tda/kepler-mapper) 
