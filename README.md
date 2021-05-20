@@ -29,8 +29,8 @@ for easy persistence computations.
 
 There are three persistent homology notebooks for users to work through:
 1. [Introduction to persistent homology](Intro_to_PH.ipynb). A simple notebook with mostly synthetic data sets to work through.
-2. [Differentiation using persistence landscapes](). A notebook for distinguishing $S^2$ from $S^3$ using one-dimensional homology, highlighting the geometric aspects of persistence. This relies on persistence landscapes, one of the first vectorization schemes introduced for persistence diagrams.
-3. [MNIST using persistent homology](). The most advanced notebook, combining various cubical persistence with various vectorization schemes to build a digit classifier.
+2. [Differentiation using persistence landscapes](Differentiation_with_Persistence_Landscapes.ipynb). A notebook for distinguishing $S^2$ from $S^3$ using one-dimensional homology, highlighting the geometric aspects of persistence. This relies on persistence landscapes, one of the first vectorization schemes introduced for persistence diagrams.
+3. [MNIST using persistent homology](MNIST_using_PH.ipynb). The most advanced notebook, combining various cubical persistence with various vectorization schemes to build a digit classifier.
 
 ## Mapper
 We use [KeplerMapper](https://github.com/scikit-tda/kepler-mapper) 
